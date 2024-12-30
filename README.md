@@ -96,7 +96,7 @@ curl -X POST http://localhost:8080/events/schedule \
 }'
 ```
 
-### 2. ##PATCH /events/override**
+### 2. **PATCH /events/override**
 
 This endpoint allows you to override an existing event schedule. Analogous to `schedule_override_for_event`
 
@@ -139,7 +139,7 @@ curl -X POST http://localhost:8080/events/override \
 }'
 ```
 
-### 3. ##POST /events/print**
+### 3. **POST /events/print**
 
 This endpoint allows you to print the schedule for a given date range. Analogous to `print_events_for_range`
 
@@ -173,7 +173,7 @@ curl -X POST http://localhost:8080/events/print \
 ## Mock Events Data
 
 There is a file `mockEvents.js` that has mock data for a handful of events which can then be used to do operations on by the existing endpoints.
-It is setup to start from scratch each time the server is started but if you wanted to use the mock events, change line 11 of `index.js` to:
+It is setup to start from scratch each time the server is started but if you wanted to use the mock events, change line 10 of `index.js` to:
 
 ```
 const EVENTS = MOCK_EVENTS;
