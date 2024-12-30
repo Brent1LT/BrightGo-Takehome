@@ -18,8 +18,8 @@ This is an Express-based API for managing event schedules. The API allows you to
 1. Clone this repository:
 
     ```bash
-    git clone <repository_url>
-    cd <repository_name>
+    git clone https://github.com/Brent1LT/BrightGo-Takehome.git
+    cd BrightGo-Takehome
     ```
 
 2. Install the required dependencies:
